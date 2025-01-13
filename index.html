@@ -7,10 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>Happy Birthday, Naani!</h1>
-    <p>You are the heart of our family. We love you!</p>
-  </header>
+    <header class="hero">
+        <div class="header-content">
+          <div class="header-text">
+            <h1>Happy Birthday, Naani!</h1>
+            <p>You are the heart of our family. We love you!</p>
+          </div>
+          <img src="images/naani_birthday.png" alt="Birthday Celebration" class="header-image" >
+        </div>
+    </header>
+      
 
   <main>
     <section id="gallery">
@@ -22,29 +28,32 @@
       </div>
     </section>
 
-    <section id="timeline">
-      <h2>Naani's Journey</h2>
-      <ul>
-        <li>🎂 Born in 1945 - A bundle of joy!</li>
-        <li>💍 Married in 1965 - A new chapter begins.</li>
-        <li>👩‍👧‍👦 Raised a beautiful family - Our guide and inspiration.</li>
-      </ul>
-    </section>
+    <section id="birthday-wishes">
+        <h2>Special Birthday Wishes for Naani</h2>
+        <p>प्यारी नानी,</p>
+        <p>इस खास दिन पर, हम उस अद्भुत व्यक्ति का जश्न मना रहे हैं जो आप हैं। आपका प्यार, ज्ञान, और दया हमारे जीवन को हर दिन रोशन करते हैं। हमने जो अनमोल यादें आपके साथ बनाई हैं, और आगे जो यादें बनाएंगे, उन सभी को आज हम सलाम करते हैं।</p>
+        <blockquote>
+          "एक दादी का प्यार हमेशा के लिए होता है, और आप, नानी, हमारे परिवार का दिल हैं।"
+        </blockquote>
+        <p>हम आशा करते हैं कि यह जन्मदिन आपको उतनी ही खुशी लाए जितनी आपने हम सभी को दी है। आपका दिन हंसी, स्वादिष्ट भोजन, और आपके सभी प्रियजनों से भरा हो।</p>
+        <p>जन्मदिन की बहुत-बहुत शुभकामनाएँ! 🎉🎂</p>
+      </section>
+      
 
         <!-- Quiz Section -->
         <section id="quiz">
             <h2>How Well Do You Know Naani?</h2>
             <div>
-                <a href="./quiz.html"><button type="button" class="primary">Let's start</button></a>
+                <a href="./quiz.html"><button type="button" class="primary"><b>Let's start</b></button></a>
             </div>
           </section>
           
 
     <section id="messages">
       <h2>Messages for Naani</h2>
-      <textarea placeholder="Write your message here"></textarea>
-      <button onclick="addMessage()">Post Message</button>
-      <ul id="message-board"></ul>
+      <div>
+        <a href="./messages/index.html"><button type="button" class="primary" style="color:black"><b>Show</b></button></a>
+    </div>
     </section>
   </main>
 
@@ -53,7 +62,7 @@
 <!-- Scroll Up and Scroll Down Buttons -->
 <div class="scroll-buttons">
     <button id="scroll-up" onclick="scrollPage('up')">
-      <a href="././card/card.html"><img src="./images/nanaji.png" alt="Scroll Up" style="height: 100px; width: 100px" /></a>
+      <a href="././card/card.html"><img src="./images/nanaji.png"  alt="Scroll Up" style="height: 100px; width: 100px" /></a>
     </button>
   </div>
   
